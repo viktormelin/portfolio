@@ -6,7 +6,7 @@
     "dev": "next dev",
     "dev:email": "cd ./react-email && npm run dev",
     "build:email": "cd ./react-email && npm install && npm run export",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
